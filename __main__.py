@@ -9,4 +9,3 @@ app_bucket_access_block = s3.BucketPublicAccessBlock("app-bucket-access-block", 
     bucket=app_bucket.id,
     block_public_acls=True,
 ))
-

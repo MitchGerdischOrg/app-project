@@ -6,5 +6,5 @@ my_bucket = s3.BucketV2('my-bucket')
 
 my_bucket_access_block = s3.BucketPublicAccessBlock('my-bucket-access-block',
                                                     bucket=my_bucket.id, 
-                                                    # block_public_acls=True
+                                                    block_public_acls=True
                                                     )
